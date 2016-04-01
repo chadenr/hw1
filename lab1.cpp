@@ -283,7 +283,7 @@ void render(Game *game)
 	glEnd();
 	glPopMatrix();
 
-	//draw all particles here
+	//draw all particles here -- may be broken.
 	for(int i; i < game->n; i++){
 		glPushMatrix();
 		glColor3ub(150,160,220);
